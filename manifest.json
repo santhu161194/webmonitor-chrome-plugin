@@ -1,7 +1,7 @@
 {
-  "name": "Getting Started Example",
+  "name": "WebMonitor-Firebase",
   "version": "1.0",
-  "description": "Build an Extension!",
+  "description": "A plugin that pushes selective browser activity to firebase",
   "permissions": ["activeTab", "declarativeContent", "storage","webNavigation"],
   "options_page": "options.html",
   "background": {
