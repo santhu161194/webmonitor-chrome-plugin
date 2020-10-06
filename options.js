@@ -5,7 +5,6 @@ let existing_urls = [];
 
 chrome.storage.sync.get(['monitoring_urls'], function(data) {
   existing_urls = data['monitoring_urls'];
-  console.log(existing_urls);
   constructOptions(existing_urls);
 });
 
